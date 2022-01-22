@@ -3,6 +3,7 @@ import styles from "../styles/Layout.module.css"
 import Image from "next/image"
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css"
+import Contenedor from "../components/Contenedor"
 
 const name = "Mantraja"
 
@@ -50,10 +51,10 @@ export default function Layout({ children, title, description, home }) {
                     </>
                 )}
             </header>
-            
+
             <nav>
                 <Link href="/">
-                    <a>Home |</a>
+                    <a>Inicio |</a>
                 </Link>
                 <Link href="/about">
                     <a>About |</a>
